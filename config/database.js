@@ -12,6 +12,7 @@ module.exports = () => {
             username: process.env.MONGO_USER,
             password: process.env.MONGO_PASSWORD,
           },
+          dbName: "innovationlabdb",
           useNewUrlParser: true,
           useUnifiedTopology: true,
           retryWrites: false,

@@ -62,7 +62,7 @@ exports.getAllMemes = async (req, res) => {
   
     memeModel
       .find()
-      .sort({ updatedAt: -1 })
+      // .sort({ updatedAt: -1 })
       .limit(max_items_on_page)
       .skip(startIndex)
       .exec()
